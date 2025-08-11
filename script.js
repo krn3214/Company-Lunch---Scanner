@@ -1,3 +1,4 @@
+
 /*
   script.js (Final Fixed Version)
   - Works with your current index.html/style.css
