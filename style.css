@@ -3,7 +3,7 @@
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; margin:0; background:#f2f6fb; color:#0b2545}
 .topbar{background:#0b4a85;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:10px 14px}
 .brand{display:flex;align-items:center;gap:10px}
-#company-logo{width:150px;height:45px;object-fit:contain;border-radius:6px;background:#ffffff22;padding:6px}
+#company-logo{width:150px;height:45px;object-fit:contain;border-radius:5px;background:#ffffff22;padding:6px}
 .title{font-weight:600}
 .sheet-link{background:#fff;color:#0b4a85;padding:6px 10px;border-radius:6px;text-decoration:none;font-weight:600}
 .container{padding:16px;max-width:520px;margin:18px auto}
