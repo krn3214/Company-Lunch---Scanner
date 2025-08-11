@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lunch QR Scanner</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/html5-qrcode@2.3.7/minified/html5-qrcode.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <img id="company-logo" src="KeolisIndiaLogo.jpeg" alt="Company Logo">
+    <div class="title">Company Lunch - Scanner</div>
+  </div>
+  <a id="sheet-link" class="sheet-link" href="#" target="_blank">📄 View Sheet</a>
+</header>
+
+<main class="container">
+  <h1>🍽 Subsidised Lunch</h1>
+  <div class="card">
+    <div id="reader" class="reader"></div>
+    <div id="result" class="result">Press <strong>Start Scan</strong> and hold the QR code steady.</div>
+    <div class="controls">
+      <button id="start-btn" class="btn primary">Start Scan</button>
+      <button id="reset-btn" class="btn secondary">Reset</button>
+    </div>
+  </div>
+
+  <div class="legend card">
+    <h3>Last Scan</h3>
+    <div id="last-scan">No scans yet.</div>
+  </div>
+</main>
+
+<footer class="footer">Built for internal use • Ready to deploy on GitHub Pages</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
